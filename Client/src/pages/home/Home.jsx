@@ -35,10 +35,10 @@ function Home() {
     <div className="flex h-screen overflow-hidden">
       {/* Hamburger menu for mobile */}
       <button
-        className="felx z-50 p-2 text-white rounded-md shadow md:hidden"
+        className="absolute top-10 left-56 z-50 p-2 text-white rounded-md shadow md:hidden"
         onClick={() => setIsSidebarOpen(!isSidebarOpen)}
       >
-        <FaBars className="w-6 h-6 text-white" />
+        <FaBars className="w-6 h-6 text-gray-500" />
       </button>
 
       {/* Sidebar toggling */}
