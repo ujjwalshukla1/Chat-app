@@ -17,7 +17,7 @@ app.use(
       "http://localhost:5173",
       "https://chat-frontend-five-neon.vercel.app"
     ],
-    methods: ["GET", "POST"],
+
     credentials: true,
   })
 );
